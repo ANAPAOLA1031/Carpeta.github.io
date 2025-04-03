@@ -15,76 +15,15 @@
         .container {
             width: 60%;
             margin: 50px auto;
-            background-color: #f8d7e3; /* Color suave para armonizar */
+            background-color: #f8d7e3;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
-        .header {
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 3px solid #ff4081;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid #ff4081;
-            margin-bottom: 10px;
-        }
-        .name {
-            font-size: 28px;
-            font-weight: bold;
-            color: #333;
-        }
-        .title {
-            font-size: 18px;
-            color: gray;
-            margin-bottom: 10px;
-        }
-        .info {
-            text-align: left;
-            margin: 20px auto;
-            width: 80%;
-        }
-        .info p {
-            margin: 10px 0;
-            font-size: 16px;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #ff4081;
-        }
-        .download-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ff4081;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: 0.3s;
-            margin-top: 20px;
-        }
-        .download-btn:hover {
-            background-color: #e91e63;
-        }
-        .social-icons {
-            margin-top: 20px;
-        }
-        .social-icons a {
-            color: #333;
-            margin: 0 10px;
-            font-size: 20px;
-            transition: 0.3s;
-        }
-        .social-icons a:hover {
-            color: #ff4081;
-        }
         .section {
             margin-top: 30px;
             padding-bottom: 20px;
-            border-bottom: 3px solid #ff4081; /* Línea separadora */
+            border-bottom: 3px solid #ff4081;
         }
         .section h2 {
             text-align: left;
@@ -92,117 +31,78 @@
             border-left: 4px solid #ff4081;
             padding-left: 10px;
         }
-        .section ul {
-            list-style: none;
-            padding: 0;
+        .project {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
         }
-        .section li {
-            padding: 5px 0;
-            font-size: 16px;
+        .project img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+        .project-info {
+            width: 70%;
+        }
+        .project-info p {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-        <div class="header">
-            <h1 class="name">Ana Paola Alberto Ramos</h1>
-            <p class="title">Ingeniera en Redes y Telecomunicaciones</p>
-            
-            <div class="info">
-                <p><span class="highlight">Edad:</span> 20 años</p>
-                <p><span class="highlight">Ubicación:</span> Juventino Rosas, México</p>
-                <p><span class="highlight">Correo:</span> 323030172@upjr.edu.mx</p>
-        
-            </div>
-
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2>Educación</h2>
-            <ul>
-                <li><strong>CBTIS No.238, Juventino Rosas</strong></li>
-                <li>Carrera Técnica en Ofimática (Agosto 2020 - Agosto 2023)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Competencias</h2>
-            <ul>
-                <li><strong>Idiomas:</strong> Inglés A1 - Avanzado</li>
-                <li><strong>Software:</strong></li>
-                <li>Paquete Office (Excel, Word, PowerPoint) - Avanzado</li>
-                <li>Canva</li>
-                <li>Herramientas de Google</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Habilidades Blandas</h2>
-            <ul>
-                <li>Adaptabilidad</li>
-                <li>Rápido aprendizaje</li>
-                <li>Trabajo en equipo</li>
-                <li>Compromiso</li>
-                <li>Conocimientos técnicos</li>
-                <li>Comunicación efectiva</li>
-                <li>Liderazgo</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Proyectos Integradores</h2>
-            <ul>
-                <li>"VITA" Dispensador de toallas sanitarias.</li>
-                <li>Programa que realiza cálculos relacionados con la ley de Coulomb y electrónica.</li>
-                <li>Programa en C++ que realiza cálculos de direcciones IP y subneteo, con un test de conocimientos de cableado estructurado.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Cursos y Talleres</h2>
-            <ul>
-                <li>Curso de bases de datos</li>
-                <li>CCNA: Fundamentos de conmutación, enrutamiento y redes inalámbricas</li>
-                <li>CCNA: Introduction to networks</li>
-                <li>Introduction to IoT</li>
-                <li>Networking Essentials</li>
-                <li>Partner NDG Linux Unhatched</li>
-            </ul>
-        </div>
-
         <div class="section">
             <h2>Proyecto Final</h2>
-            <ul>
-              <li><strong>Primer Parcial</strong></li>
-                <li>ORACLE</li>
-                <li>zip para VPS crear su respectiva carpeta dentro de  /var/www/html/</li>
-                <li>Compra de dominio https</li>
-                <li>Crear una base de datos PHPMYADMIN</li>
-                <li>Conexion de base de datos por medio de mysql</li>
-                <li>Contraseñas de Bandit - OverTheWire</li>
-                <li>Contraseñas de Bandit - Natas</li>
-              <li><strong>Segundo Parcial</strong></li>
-                <li>Realizar una tabla de registro por medio de la base de datos</li>
-                <li>Crear PHP para que reciba datos y los guarde en la tabla de registro</li>
-                <li>Realizar repositorio en GITHUB</li>
-                <li>Hacer una página Github.io</li>
-                <li><a href="https://github.com/ANAPAOLA1031/ANAPAOLA1031.github.io/blob/main/Primer%20parcial.pdf" target="_blank">Enlace al proyecto</a></li> <!-- Aquí se agregó el enlace -->
-            </ul>
-        </div>
+            
+            <div class="project">
+                <div class="project-info">
+                    <h3>Primer Parcial - ORACLE</h3>
+                    <p><strong>Fecha:</strong> 2024</p>
+                    <p>Configuración y administración de bases de datos en ORACLE.</p>
+                    <a href="https://github.com/ANAPAOLA1031/ANAPAOLA1031.github.io/blob/main/Primer%20parcial.pdf" target="_blank">Ver Proyecto</a>
+                </div>
+                <img src="oracle-image.jpg" alt="Proyecto ORACLE">
+            </div>
 
-        <!-- Ejemplo de cómo agregar una imagen -->
-        <div class="section">
-            <h2>Imagen de Perfil</h2>
-            <img src="ruta-de-tu-imagen.jpg" alt="Perfil de Ana Paola" width="200"> <!-- Reemplaza la ruta con la ubicación de la imagen -->
-        </div>
+            <div class="project">
+                <div class="project-info">
+                    <h3>Configuración VPS</h3>
+                    <p><strong>Fecha:</strong> 2024</p>
+                    <p>Configuración de VPS y creación de carpetas en /var/www/html/.</p>
+                </div>
+                <img src="vps-image.jpg" alt="Configuración VPS">
+            </div>
 
+            <div class="project">
+                <div class="project-info">
+                    <h3>Creación de Base de Datos con PHPMYADMIN</h3>
+                    <p><strong>Fecha:</strong> 2024</p>
+                    <p>Desarrollo de base de datos y conexión con MySQL.</p>
+                </div>
+                <img src="phpmyadmin-image.jpg" alt="Base de Datos">
+            </div>
+
+            <div class="project">
+                <div class="project-info">
+                    <h3>Tabla de Registro y PHP</h3>
+                    <p><strong>Fecha:</strong> 2024</p>
+                    <p>Creación de una tabla de registro con integración de PHP y MySQL.</p>
+                </div>
+                <img src="php-table-image.jpg" alt="Tabla de Registro">
+            </div>
+
+            <div class="project">
+                <div class="project-info">
+                    <h3>Repositorio en GitHub</h3>
+                    <p><strong>Fecha:</strong> 2024</p>
+                    <p>Gestión del código fuente en un repositorio de GitHub.</p>
+                </div>
+                <img src="github-image.jpg" alt="Repositorio GitHub">
+            </div>
+        </div>
     </div>
-
 </body>
 </html>
+
